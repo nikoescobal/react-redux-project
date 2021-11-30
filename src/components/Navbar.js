@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 const Navbar = () => (
   <nav className="w-full bg-pink-400">
     <div className="flex align-middle w-full items-center space-x-3 p-6 justify-end">
-      <div className="w-full justify-center flex text-white">
+      <div className="w-full justify-center lg:text-3xl flex text-white">
         <Link to="/">Data</Link>
       </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-5 w-5 fill-current text-white"
+        className="h-5 w-5 lg:h-6 lg:w-6 fill-current text-white"
         viewBox="0 0 20 20"
         fill="currentColor"
       >
@@ -21,7 +21,7 @@ const Navbar = () => (
       </svg>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-6 w-6 fill-current text-white"
+        className="h-6 w-6 lg:h-7 lg:w-7 fill-current text-white"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
