@@ -27,16 +27,7 @@ const Characters = () => {
         Characters
       </h2>
       {characterStore.map((character) => {
-        const {
-          id,
-          name,
-          // alias,
-          // description,
-          // occupation,
-          // quirk,
-          // status,
-          images,
-        } = character;
+        const { id, name, images } = character;
         return (
           <>
             <Link key={id} to={{ pathname: `/id/${id}` }}>

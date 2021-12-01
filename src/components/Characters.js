@@ -45,13 +45,42 @@ const Characters = () => {
           />
         </div>
         <div className="flex flex-col px-4 py-2">
-          <h2 className="text-lg font-bold">{characters.name}</h2>
-          <h2 className="text-lg font-bold">{characters.alias}</h2>
-          <h2 className="text-lg font-bold">{characters.description}</h2>
-          <h2 className="text-lg font-bold">{characters.occupation}</h2>
-          <h2 className="text-lg font-bold">{characters.quirk}</h2>
-          <h2 className="text-lg font-bold">{characters.status}</h2>
-          <p className="capitalize py-2.5">{characters.id}</p>
+          <h2 className="text-lg font-bold">
+            {' '}
+            Name:
+            {' '}
+            {characters.name}
+          </h2>
+          <h2 className="text-lg font-bold">
+            {' '}
+            Alias:
+            {' '}
+            {characters.alias}
+          </h2>
+          <h2 className="text-lg font-bold">
+            {' '}
+            Description:
+            {' '}
+            {characters.description}
+          </h2>
+          <h2 className="text-lg font-bold">
+            {' '}
+            Occupation:
+            {' '}
+            {characters.occupation}
+          </h2>
+          <h2 className="text-lg font-bold">
+            {' '}
+            Quirk:
+            {' '}
+            {characters.quirk}
+          </h2>
+          <h2 className="text-lg font-bold">
+            {' '}
+            Status:
+            {' '}
+            {characters.status}
+          </h2>
         </div>
       </div>
     </div>
