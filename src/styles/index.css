@@ -1,6 +1,10 @@
 /* stylelint-disable */
 /* eslint-disable */
 
+body {
+  @apply font-nunito;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

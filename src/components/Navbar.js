@@ -19,7 +19,7 @@ function Navbar() {
   );
   const goBack = place.pathname.includes('id') ? back : '';
   return (
-    <nav className="w-full bg-pink-500">
+    <nav className="w-full bg-pink-700">
       <div className="justify-start" />
       <div className="flex align-middle w-full items-center space-x-3 p-6 justify-end">
         <div className="w-1/12 justify-start lg:text-3xl flex text-white">

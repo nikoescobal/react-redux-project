@@ -32,7 +32,7 @@ const Characters = () => {
           <>
             <Link key={id} to={{ pathname: `/id/${id}` }}>
               <div key={id} className="">
-                <h2 className="font-mono lg:text-2xl text-white bg-yellow-400 mx-2 flex justify-center items-center text-base font-semibold">
+                <h2 className="font-mono lg:text-2xl text-white bg-yellow-400 mx-0.5 flex justify-center items-center text-base font-semibold">
                   {' '}
                   {name}
                 </h2>
