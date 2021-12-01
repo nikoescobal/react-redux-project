@@ -16,14 +16,11 @@
 
 
 ## Screenshot
-![image](https://user-images.githubusercontent.com/60612329/143672154-e6ce8752-561f-4117-9ed8-9487c729f294.png)
-![image](https://user-images.githubusercontent.com/60612329/143672165-92e00aa1-6e38-4df1-be93-656780ec0866.png)
-![image](https://user-images.githubusercontent.com/60612329/143672172-76e82e1b-cb0d-4dd9-bbd9-ceb26d72aaf8.png)
-![image](https://user-images.githubusercontent.com/60612329/143672188-317a5547-067b-4f12-8508-5571973b6e0c.png)
-
+![Homepage](/src/assets/rrc-homepage.png)
+![Characters](/src/assets/rrc-characters.png)
 
 ## Live Demo
-[Click here to see the project](https://spacexapi-demo.netlify.app/)
+[Click here to see the project](https://myheroacademydb.netlify.app/)
 
 
 ## Getting Started

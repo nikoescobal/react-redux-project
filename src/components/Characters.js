@@ -29,7 +29,7 @@ const Characters = () => {
           />
         </div>
         <div className="flex flex-col px-4 py-2 ">
-          <div className="text-lg text-white mb-6 align-middle rounded flex w-full">
+          <div className="lg:text-2xl text-lg text-white mb-6 align-middle rounded flex w-full">
             <h2 className="font-semibold p-4 bg-blue-700">Name: </h2>
             <h2 className="font-bold p-4 bg-red-600 text-yellow-500">
               {' '}
