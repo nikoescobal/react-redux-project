@@ -59,6 +59,12 @@ const Characters = () => {
           </h2>
           <h2 className="text-lg font-bold">
             {' '}
+            Gender:
+            {' '}
+            {characters.gender}
+          </h2>
+          <h2 className="text-lg font-bold">
+            {' '}
             Description:
             {' '}
             {characters.description}
