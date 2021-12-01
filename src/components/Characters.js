@@ -19,7 +19,7 @@ const Characters = () => {
   }, []);
 
   return (
-    <div className=" p-6 bg-pink-50 characters-container grid grid-cols-1">
+    <div className=" p-6 bg-pink-50 font-mono characters-container grid grid-cols-1">
       <div className="flex" key={characters.id}>
         <div className="h-full w-full py-3">
           <img

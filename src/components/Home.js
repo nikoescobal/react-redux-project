@@ -23,7 +23,7 @@ const Characters = () => {
           alt="hero-bg"
         />
       </div>
-      <h2 className="col-span-2 lg:col-span-4 flex items-center justify-center bg-blue-700 my-6 p-4 text-white font-semi-bold text-lg lg:text-3xl">
+      <h2 className="col-span-2 font-raleway lg:col-span-4 flex items-center justify-center bg-blue-700 my-6 p-4 text-white font-semi-bold text-lg lg:text-3xl">
         Characters
       </h2>
       {characterStore.map((character) => {
