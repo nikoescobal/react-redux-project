@@ -19,7 +19,7 @@ function Navbar() {
   );
   const goBack = place.pathname.includes('id') ? back : '';
   return (
-    <nav className="w-full bg-pink-700">
+    <nav className="w-full bg-red-600">
       <div className="justify-start" />
       <div className="flex align-middle w-full items-center space-x-3 p-6 justify-end">
         <div className="w-1/12 justify-start lg:text-3xl flex text-white">
@@ -28,8 +28,8 @@ function Navbar() {
           </NavLink>
         </div>
 
-        <div className="w-full justify-center lg:text-3xl flex text-white">
-          <NavLink to="/">Character Data</NavLink>
+        <div className="text-yellow-500 font-nunito uppercase font-extrabold w-full justify-center lg:text-3xl flex">
+          <NavLink to="/">My Hero Academia</NavLink>
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
