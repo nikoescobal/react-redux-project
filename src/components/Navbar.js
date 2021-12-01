@@ -29,7 +29,7 @@ function Navbar() {
         </div>
 
         <div className="text-yellow-500 font-nunito uppercase font-extrabold w-full justify-center lg:text-3xl flex">
-          <NavLink to="/">My Hero Academia</NavLink>
+          <NavLink to="/">My Hero Academia DB</NavLink>
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
