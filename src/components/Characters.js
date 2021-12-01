@@ -17,22 +17,6 @@ const Characters = () => {
       dispatch(fetchData());
     }
   }, []);
-  console.log(characters);
-  // characters.map((character) => {
-  //   const {
-  //     id, name, alias, description, occupation, quirk, status, images,
-  //   } = character;
-  //   return {
-  //     id,
-  //     name,
-  //     alias,
-  //     description,
-  //     occupation,
-  //     quirk,
-  //     status,
-  //     images,
-  //   };
-  // });
 
   return (
     <div className=" p-6 characters-container grid grid-cols-1">
@@ -45,7 +29,7 @@ const Characters = () => {
           />
         </div>
         <div className="flex flex-col px-4 py-2">
-          <h2 className="text-lg font-bold">
+          <h2 className="text-lg font-bold text-white p-4 mb-6 rounded flex justify-center bg-blue-400">
             {' '}
             Name:
             {' '}
