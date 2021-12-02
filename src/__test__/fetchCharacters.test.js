@@ -10,12 +10,27 @@ describe('test fetching characters', () => {
   });
   it('tests fetching of the gender', async () => {
     await fetchData().then((data) => {
-      expect(data[1].gender).toBe('Non-binary');
+      expect(data[0].gender).toBe('Non-binary');
     });
   });
   it('tests fetching of the quirk', async () => {
     await fetchData().then((data) => {
       expect(data[0].quirk).toBe('Dino dick');
+    });
+  });
+  it('tests fetching of the alias', async () => {
+    await fetchCharacter().then((data) => {
+      expect(data[1].alias).toBe('Tetris Man');
+    });
+  });
+  it('tests fetching of the gender', async () => {
+    await fetchData().then((data) => {
+      expect(data[1].gender).toBe('Attack Helicopter');
+    });
+  });
+  it('tests fetching of the quirk', async () => {
+    await fetchData().then((data) => {
+      expect(data[1].quirk).toBe('Invisibility');
     });
   });
 });
