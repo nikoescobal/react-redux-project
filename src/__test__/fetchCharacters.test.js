@@ -15,7 +15,7 @@ describe('test fetching characters', () => {
   });
   it('tests fetching of the quirk', async () => {
     await fetchData().then((data) => {
-      expect(data[0].quirk).toBe('Dino dick');
+      expect(data[0].quirk).toBe('Dino Dick');
     });
   });
   it('tests fetching of the alias', async () => {
