@@ -21,12 +21,12 @@ const Characters = () => {
       <div className="flex" key={characters.id}>
         <div className="h-full w-full py-3 shadow-lg ">
           <img
-            className="lg:h-full object-contain lg:object-cover"
+            className="lg:h-full object-cover"
             src={characters.images[0]}
             alt={characters.name}
           />
         </div>
-        <div className="flex w-4/5 flex-col px-2 lg:px-3 xl:px-4 py-2 ">
+        <div className="flex w-1/2 md:w-3/5 lg:w-4/5 flex-col px-2 lg:px-3 xl:px-4 py-2 ">
           <div className="lg:text-2xl md:text-lg text-base text-white mb-6 align-middle rounded flex w-full">
             <h2 className="font-semibold p-2 lg:p-3 xl:p-4 bg-blue-700">
               Name:
