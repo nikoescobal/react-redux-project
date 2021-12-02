@@ -2,7 +2,7 @@ const fetchData = () => Promise.resolve([
   {
     alias: 'Poop Hero',
     gender: 'Non-binary',
-    quirk: 'Dino dick',
+    quirk: 'Dino Dick',
   },
   {
     alias: 'Tetris Man',
