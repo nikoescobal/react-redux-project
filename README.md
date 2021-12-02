@@ -22,6 +22,9 @@
 ## Live Demo
 [Click here to see the project](https://myheroacademydb.netlify.app/)
 
+## Video Explanation
+[Click here to get a brief explanation via video](https://www.loom.com/share/852b196f4a184162adef35aab4b0cb7c)
+
 
 ## Getting Started
 **To get a local copy up and running follow these simple example steps.**
