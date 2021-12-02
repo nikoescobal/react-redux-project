@@ -26,7 +26,6 @@ const Characters = () => {
 
   const update = (e) => {
     setSelectedOption(e.target.value);
-    console.log(e.target.value);
     if (e.target.value === 'All') {
       setFilterChars(characterStore);
     } else {
