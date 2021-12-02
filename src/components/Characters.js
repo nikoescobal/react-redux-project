@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import {} from '../store/rootReducer';
 import { useParams } from 'react-router';
 
-import { fetchData } from '../store/actions';
+import fetchData from '../store/actions';
 
 const Characters = () => {
   const characterStore = useSelector((state) => state.characters.characters);
@@ -19,7 +19,7 @@ const Characters = () => {
   return (
     <div className=" p-6 bg-pink-50 font-mono characters-container grid grid-cols-1">
       <div className="flex" key={characters.id}>
-        <div className="h-full w-full py-3">
+        <div className="h-full w-full py-3 shadow-lg ">
           <img
             className="h-full object-cover"
             src={characters.images[0]}

@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import React, { useEffect } from 'react';
 import {} from '../store/rootReducer';
 import { Link } from 'react-router-dom';
-import { fetchData } from '../store/actions';
+import fetchData from '../store/actions';
 
 const Characters = () => {
   const characterStore = useSelector((state) => state.characters.characters);
@@ -37,7 +37,7 @@ const Characters = () => {
                   {name}
                 </h2>
               </div>
-              <div className="flex lg:px-6 bg-blue-500 text-white border justify-center px-2 py-3">
+              <div className="flex lg:px-6 bg-blue-500 text-white shadow justify-center px-2 py-3">
                 <img className="h-96 object-cover" src={images[0]} alt={name} />
               </div>
             </Link>
