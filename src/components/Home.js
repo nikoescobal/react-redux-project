@@ -36,7 +36,7 @@ const Characters = () => {
     <div className="grid grid-cols-2 grid-gap-2 lg:grid-cols-4 py-4 bg-yellow-50">
       <div className="col-span-2 lg:col-span-4 h-1/ w-1/2 border rounded border-red-500 mx-auto">
         <img
-          className="w-full h-full object-cover bg-yellow-500 bg-cover rounded"
+          className="w-full h-full object-cover bg-yellow-400 bg-cover rounded"
           src="https://www.pngmart.com/files/13/My-Hero-Academia-Characters-PNG-Image-Background.png"
           alt="hero-bg"
         />

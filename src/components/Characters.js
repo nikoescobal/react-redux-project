@@ -32,7 +32,7 @@ const Characters = () => {
               Name:
               {' '}
             </h2>
-            <h2 className="font-bold p-2 lg:p-3 xl:p-4 bg-red-600 text-yellow-500">
+            <h2 className="font-bold p-2 lg:p-3 xl:p-4 bg-red-600 text-yellow-300">
               {' '}
               &nbsp;
               {characters.name}

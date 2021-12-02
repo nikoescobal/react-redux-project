@@ -28,13 +28,13 @@ function Navbar() {
           </NavLink>
         </div>
 
-        <div className="text-yellow-500 font-nunito uppercase font-extrabold align-middle items-center w-full justify-center text-lg md:text-3xl lg:text-5xl flex">
+        <div className="text-yellow-300 font-nunito uppercase font-extrabold align-middle items-center w-full justify-center text-lg md:text-3xl lg:text-5xl flex">
           <NavLink to="/"> My Hero Academia DB</NavLink>
           {' '}
 &nbsp;
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-7 w-7 md:h-8 md:w-8 lg:h-10 lg:w-10 fill-current text-yellow-500"
+            className="h-7 w-7 md:h-8 md:w-8 lg:h-10 lg:w-10 fill-current text-yellow-300"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
