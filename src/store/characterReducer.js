@@ -1,5 +1,3 @@
-/* eslint-disable no-case-declarations */
-
 import { LOAD_CHARACTERS, LOAD_FAILED, initialState } from './types';
 
 const characterReducer = (state = initialState, action) => {

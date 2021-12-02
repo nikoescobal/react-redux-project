@@ -1,5 +1,3 @@
-/* eslint-disable no-restricted-globals */
-/* eslint-disable no-undef */
 import { useSelector, useDispatch } from 'react-redux';
 import React, { useEffect } from 'react';
 import {} from '../store/rootReducer';

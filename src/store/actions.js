@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 import { url, LOAD_CHARACTERS, LOAD_FAILED } from './types';
 
 const loadCharacters = (characters) => ({
@@ -11,7 +10,7 @@ const loadFailed = (err) => ({
   payload: err,
 });
 
-export const fetchData = () => async (dispatch) => {
+const fetchData = () => async (dispatch) => {
   try {
     const response = await fetch(url);
     const data = await response.json();
@@ -50,3 +49,5 @@ export const fetchData = () => async (dispatch) => {
     dispatch(loadFailed(err.description));
   }
 };
+
+export default fetchData;
