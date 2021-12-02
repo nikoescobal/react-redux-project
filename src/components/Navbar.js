@@ -29,19 +29,21 @@ function Navbar() {
         </div>
 
         <div className="text-yellow-500 font-nunito uppercase font-extrabold align-middle items-center w-full justify-center text-2xl md:text-3xl lg:text-5xl flex">
-          <NavLink to="/"> My Hero Academia DB</NavLink>
+          <NavLink to="/">
+            {' '}
+            My Hero Academia DB &nbsp;
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 md:h-8 md:w-8 lg:h-10 lg:w-10 fill-current text-yellow-500"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z" />
+              <path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z" />
+              <path d="M17 5c0 1.657-3.134 3-7 3S3 6.657 3 5s3.134-3 7-3 7 1.343 7 3z" />
+            </svg>
+          </NavLink>
           {' '}
-&nbsp;
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5 lg:h-10 lg:w-10 fill-current text-yellow-500"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z" />
-            <path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z" />
-            <path d="M17 5c0 1.657-3.134 3-7 3S3 6.657 3 5s3.134-3 7-3 7 1.343 7 3z" />
-          </svg>
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"

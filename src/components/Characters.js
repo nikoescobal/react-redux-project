@@ -21,21 +21,24 @@ const Characters = () => {
       <div className="flex" key={characters.id}>
         <div className="h-full w-full py-3 shadow-lg ">
           <img
-            className="h-full object-cover"
+            className="lg:h-full object-contain lg:object-cover"
             src={characters.images[0]}
             alt={characters.name}
           />
         </div>
-        <div className="flex flex-col px-4 py-2 ">
-          <div className="lg:text-2xl text-lg text-white mb-6 align-middle rounded flex w-full">
-            <h2 className="font-semibold p-4 bg-blue-700">Name: </h2>
-            <h2 className="font-bold p-4 bg-red-600 text-yellow-500">
+        <div className="flex w-4/5 flex-col px-2 lg:px-3 xl:px-4 py-2 ">
+          <div className="lg:text-2xl md:text-lg text-base text-white mb-6 align-middle rounded flex w-full">
+            <h2 className="font-semibold p-2 lg:p-3 xl:p-4 bg-blue-700">
+              Name:
+              {' '}
+            </h2>
+            <h2 className="font-bold p-2 lg:p-3 xl:p-4 bg-red-600 text-yellow-500">
               {' '}
               &nbsp;
               {characters.name}
             </h2>
           </div>
-          <div className="text-lg text-white p-4 mb-6 rounded bg-blue-400">
+          <div className="lg:text-lg text-base text-white p-4 mb-6 rounded bg-blue-400">
             <h2 className="font-semibold text-blue-700">Alias:</h2>
             <h2 className="font-bold p-3 bg-blue-400">
               {' '}
@@ -44,7 +47,7 @@ const Characters = () => {
               {characters.alias}
             </h2>
           </div>
-          <div className="text-lg text-white p-4 mb-6 rounded bg-blue-400">
+          <div className="lg:text-lg text-base text-white p-4 mb-6 rounded bg-blue-400">
             <h2 className="font-semibold text-blue-700">Gender:</h2>
             <h2 className="font-bold p-3 bg-blue-400">
               {' '}
@@ -53,7 +56,7 @@ const Characters = () => {
               {characters.gender}
             </h2>
           </div>
-          <div className="text-lg text-white p-4 mb-6 rounded bg-blue-400">
+          <div className="lg:text-lg text-base text-white p-4 mb-6 rounded bg-blue-400">
             <h2 className="font-semibold text-blue-700">Description:</h2>
             <h2 className="font-bold p-3 bg-blue-400">
               {' '}
@@ -62,7 +65,7 @@ const Characters = () => {
               {characters.description}
             </h2>
           </div>
-          <div className="text-lg text-white p-4 mb-6 rounded bg-blue-400">
+          <div className="lg:text-lg text-base text-white p-4 mb-6 rounded bg-blue-400">
             <h2 className="font-semibold text-blue-700">Occupation:</h2>
             <h2 className="font-bold p-3 bg-blue-400">
               {' '}
@@ -70,7 +73,7 @@ const Characters = () => {
               {characters.occupation}
             </h2>
           </div>
-          <div className="text-lg text-white p-4 mb-6 rounded bg-blue-400">
+          <div className="lg:text-lg text-base text-white p-4 mb-6 rounded bg-blue-400">
             <h2 className="font-semibold text-blue-700">Quirk:</h2>
             <h2 className="font-bold p-3 bg-blue-400">
               {' '}
@@ -78,7 +81,7 @@ const Characters = () => {
               {characters.quirk}
             </h2>
           </div>
-          <div className="text-lg text-white p-4 mb-6 rounded  bg-blue-400">
+          <div className="lg:text-lg text-base text-white p-4 mb-6 rounded  bg-blue-400">
             <h2 className="font-semibold text-blue-700">Status:</h2>
             <h2 className="font-bold p-3 bg-blue-400">
               {' '}
