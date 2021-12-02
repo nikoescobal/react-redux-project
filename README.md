@@ -16,8 +16,8 @@
 
 
 ## Screenshot
-![Homepage](/src/assets/rrc-homepage.png)
-![Characters](/src/assets/rrc-characters.png)
+![Homepage](https://user-images.githubusercontent.com/62937819/144334065-becdcd16-1732-43c7-9427-7fd7ef6f4693.png)
+![Characters](https://user-images.githubusercontent.com/62937819/144333952-6e9efafd-593b-4e54-9749-eb229c6cb92b.png)
 
 ## Live Demo
 [Click here to see the project](https://myheroacademydb.netlify.app/)
