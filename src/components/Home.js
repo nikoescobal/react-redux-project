@@ -1,11 +1,8 @@
-/* eslint-disable indent */
-/* eslint-disable react/no-array-index-key */
-/* eslint-disable no-unused-vars */
-/* eslint-disable jsx-a11y/control-has-associated-label */
 import { useSelector, useDispatch } from 'react-redux';
 import React, { useEffect, useState } from 'react';
 import {} from '../store/rootReducer';
 import { Link } from 'react-router-dom';
+import { v4 as uuidv4 } from 'uuid';
 import fetchData from '../store/actions';
 
 const Characters = () => {
@@ -50,8 +47,8 @@ const Characters = () => {
         onChange={update}
       >
         <option value="All">All</option>
-        {occupationsArr.map((item, index) => (
-          <option key={index} value={item}>
+        {occupationsArr.map((item) => (
+          <option key={uuidv4()} value={item}>
             {item}
           </option>
         ))}
@@ -65,12 +62,12 @@ const Characters = () => {
           return (
             <Link key={id} to={{ pathname: `/id/${id}` }}>
               <div key={id} className="">
-                <h2 className="font-mono lg:text-2xl text-white bg-yellow-400 mx-0.5 flex justify-center items-center text-base font-semibold">
+                <h2 className="font-mono lg:text-lg xl:text-2xl text-white bg-yellow-400 mx-0.5 flex justify-center items-center text-base font-semibold">
                   {' '}
                   {name}
                 </h2>
               </div>
-              <div className="flex lg:px-6 bg-blue-500 text-white shadow justify-center px-2 py-3">
+              <div className="flex lg:px-6 bg-blue-500 border-2 text-white shadow justify-center px-2 py-3">
                 <img className="h-96 object-cover" src={images[0]} alt={name} />
               </div>
             </Link>
