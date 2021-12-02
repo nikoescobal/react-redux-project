@@ -1,14 +1,17 @@
-import { Route, Routes, Router } from 'react-router-dom';
-import Homepage from './components/Homepage';
+import React from 'react';
+import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Characters from './components/Characters';
 
-function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-      </Routes>
-    </Router>
-  );
-}
+const App = () => (
+  <Router>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/id/:name" element={<Characters />} />
+    </Routes>
+  </Router>
+);
 
 export default App;

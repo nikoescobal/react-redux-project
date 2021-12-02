@@ -1,36 +1,39 @@
-# React JS Template
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This repo contains all the necessary files needed to quickly get started with building an application with React -- linters, create react app, dependencies, and Tailwind.
+# My Hero Academy Character Database
+> In this project, I built a SPA with React and Redux where users can view characters from My Hero Academy. Upon clicking on their profile, viewers will be able to see the character's data, such as their name, affiliation, gender, quirk, etc.
 
 ## Built with
-
 - HTML
 - CRACO
 - CSS
 - React
+- Redux
 - JavaScript
 - Tailwind CSS
 - VScode
 - Lots of love :heart:
 
-## Live Demo
 
-[Live Link]()
+## Screenshot
+![Homepage](https://user-images.githubusercontent.com/62937819/144334065-becdcd16-1732-43c7-9427-7fd7ef6f4693.png)
+![Characters](https://user-images.githubusercontent.com/62937819/144333952-6e9efafd-593b-4e54-9749-eb229c6cb92b.png)
+
+## Live Demo
+[Click here to see the project](https://myheroacademydb.netlify.app/)
+
+## Video Explanation
+[Click here to get a brief explanation via video](https://www.loom.com/share/852b196f4a184162adef35aab4b0cb7c)
 
 
 ## Getting Started
-
-To get a local copy up and running follow these simple example steps.
-
-## Setup
-
-- Clone this repository. 
+**To get a local copy up and running follow these simple example steps.**
+- Clone this repository.
 - Run ``npm i`` or ``yarn`` to install dependencies required to start the project
-- Using node v15.11.0 (npm v7.6.0) 
-- Run ``npm start`` to trigger ``craco start``
+- Make sure to use node v15.11.0 (npm v7.6.0)
+- Run ``npm start``
 
 ## Run Tests
-
 ```
 npm run lint
 ```
@@ -58,7 +61,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
-- The Odin Project
+- [Nelson Sakwa](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs) for the design reference used in the project 
 
 ## 📝 MIT License
 

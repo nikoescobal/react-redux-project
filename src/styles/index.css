@@ -1,6 +1,10 @@
 /* stylelint-disable */
 /* eslint-disable */
 
+body {
+  @apply font-mono;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
